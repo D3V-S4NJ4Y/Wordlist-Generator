@@ -41,11 +41,6 @@ A C program that generates wordlists with customizable character sets and length
 - Shows total word count upon completion
 - Displays real-time progress during generation
 
-## Requirements
-
-- C compiler (GCC recommended)
-- Windows environment (uses `conio.h` for `getch()`)
-
 ## Warning
 
 Be cautious with large maximum lengths as the number of generated words grows exponentially with the character set size and length.
